@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@react-native-community/cli > @react-native-community/cli-server-api > @react-native-community/cli-tools > lodash':
+        patched: '2020-09-03T03:51:08.626Z'
+    - fbjs-scripts > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-09-03T03:51:08.626Z'
+    - metro-react-native-babel-transformer > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-09-03T03:51:08.626Z'
+    - '@react-native-community/cli > metro > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-09-03T03:51:08.626Z'
+    - '@react-native-community/cli > metro-react-native-babel-transformer > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-09-03T03:51:08.626Z'
+    - metro-react-native-babel-transformer > metro-babel-transformer > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-09-03T03:51:08.626Z'
+    - '@react-native-community/cli > metro > metro-babel-transformer > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-09-03T03:51:08.626Z'
+    - '@react-native-community/cli > metro-react-native-babel-transformer > metro-babel-transformer > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-09-03T03:51:08.626Z'
+    - '@react-native-community/cli > metro-config > metro > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-09-03T03:51:08.626Z'
+    - '@react-native-community/cli > metro-config > metro > metro-babel-transformer > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-09-03T03:51:08.626Z'
+    - '@react-native-community/cli > metro > metro-config > metro > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-09-03T03:51:08.626Z'
+    - '@react-native-community/cli > metro > metro-config > metro > metro-babel-transformer > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-09-03T03:51:08.626Z'
